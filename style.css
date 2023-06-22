@@ -51,13 +51,6 @@ header{
     margin: 20px;
 }
 
-.article:hover{
-    box-shadow: 0 0 5px #a200a8;
-}
-
-a:hover{
-    color: #a200a8
-}
 
 .article-date{
     color: #c8c8c8;
@@ -91,6 +84,9 @@ a:hover{
     margin-right: 10px;
 }
 
+
+/* responsive design */
+
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
@@ -99,4 +95,14 @@ a:hover{
   .article-link, .article-date{
     font-size: 1em;
   }
+}
+
+
+/* hovers */
+.article:hover{
+    box-shadow: 0 0 5px #a200a8;
+}
+
+a:hover{
+    color: #a200a8
 }
