@@ -16,3 +16,25 @@
     padding: 5px;
     font-size: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+#canvas1{
+    margin-top: 100px;
+    transform: scale(.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+}
+
