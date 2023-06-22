@@ -1,11 +1,7 @@
 const canvas = document.getElementById('canvas1')
 const ctx = canvas.getContext('2d')
 const dropDown = document.getElementById('pose-dropdown') 
-const back = document.getElementById('back')
 
-back.onclick = ()=>{
-    window.open('../index.html')
-}
 let playerState = 'idle'
 dropDown.addEventListener('change', (e)=>{
     playerState = e.target.value
