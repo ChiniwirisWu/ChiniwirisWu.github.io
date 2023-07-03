@@ -31,9 +31,7 @@ body {
 #canvas1{
     margin-top: 100px;
     transform: scale(.5);
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-left: -50%;
 }
 
 }
